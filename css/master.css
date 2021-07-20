@@ -41,6 +41,10 @@ body{
   margin-left: 2rem;
 }
 
+.pard{
+padding: 2rem; 
+}
+
 h1{
   font-family: 'Oswald', sans-serif;
   color: #e5cf4a;
@@ -237,13 +241,13 @@ h3{
 
 
 
-button {
+buttone {
     list-style-type: none;
     margin: 0;
     padding: 0;
 }
 
-button{
+buttone{
     --c: goldenrod;
     color: var(--c);
     width: 12em;
@@ -260,11 +264,11 @@ button{
     transition: 0.5s;
 }
 
-button:hover {
+buttone:hover {
     color: black;
 }
 
-button span {
+buttone span {
     position: absolute;
     width: 25%;
     height: 100%;
@@ -277,23 +281,23 @@ button span {
     z-index: -1;
 }
 
-button:hover span {
+buttone:hover span {
     transform: translateY(0) scale(2);
 }
 
-button span:nth-child(1) {
+buttone span:nth-child(1) {
     --n: 1;
 }
 
-button span:nth-child(2) {
+buttone span:nth-child(2) {
     --n: 2;
 }
 
-button span:nth-child(3) {
+buttone span:nth-child(3) {
     --n: 3;
 }
 
-button span:nth-child(4) {
+buttone span:nth-child(4) {
     --n: 4;
 }
 
@@ -310,4 +314,8 @@ button span:nth-child(4) {
 
 .btn:hover{
   border-color: black;
+}
+
+#botonnav{
+  background-color: goldenrod;
 }

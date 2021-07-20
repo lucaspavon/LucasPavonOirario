@@ -15,24 +15,30 @@
     <title>Oir a riO</title>
   </head>
   <body>
-    <nav class="navbar navbar-light bg-dark inf">
-      <div class="container">
-        <a class="navbar-brand" href="#">
-          <img src="assets\img\logorioblanco.png" alt="" width="100" class="Logo">
-        </a>
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#quienessomos">QUIENES SOMOS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#influencias">INFLUENCIAS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#notepierdasnada">NO TE PIERDAS NADA</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+      <nav class="navbar navbar-expand-lg navbar-light bg-dark inf">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="assets\img\logorioblanco.png" alt="" width="100" class="Logo">
+          </a>
+          <button class="navbar-toggler" id="botonnav" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+              <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#quienessomos">QUIENES SOMOS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#influencias">INFLUENCIAS</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#notepierdasnada">NO TE PIERDAS NADA</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+      </nav>
+
 
         <div class="conteiner-fluid portada">
           <img src="assets/img/portada3.png" class="img-fluid port" alt="...">
@@ -45,7 +51,7 @@
 
     <div class="container">
       <div class="row bg-dark inf">
-          <div class="col">
+          <div class="col-md-6 col-12">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -70,17 +76,17 @@
                   <img src="assets\img\carrousel8.png" class="d-block w-100" alt="...">
                 </div>
               </div>
-              <a class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
-              </a>
-              <a class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
-              </a>
+              </button>
             </div>
           </div>
-          <div class="col qs">
+          <div class="col-md-6 col-12 qs">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et turpis fermentum, placerat ante ac, feugiat enim. Etiam tristique sollicitudin arcu. Nullam a libero non urna congue interdum. Curabitur condimentum nec lectus sed egestas. Vivamus tempus ullamcorper augue, ut finibus libero convallis tempor. Maecenas rutrum tristique elit at euismod. Sed est orci, egestas quis enim ut, varius dictum mauris. Ut at purus interdum, venenatis dui et, elementum nulla. Phasellus posuere nunc id tellus consequat dapibus. Mauris elementum mauris sed nisi semper ultricies. Morbi semper suscipit euismod.
 
               Nam a eros sed augue molestie tempus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nullam cursus metus magna, non ultricies nunc efficitur eleifend. Sed cursus arcu eget lectus gravida bibendum. In interdum dui ut sagittis consectetur. Duis dapibus, arcu ut rhoncus venenatis, risus arcu porttitor nibh, eget hendrerit elit nunc a justo. Donec vel ipsum a lorem commodo maximus a porta odio. Nulla tincidunt, metus in ultricies tristique, sem diam aliquam nulla, non ullamcorper nulla felis in nibh.
@@ -91,7 +97,7 @@
 
     <div class="container">
         <div class="row bg-dark inf">
-          <div class="col">
+          <div class="col-md-4 col-12">
             <div class="card h-100 bg-dark">
               <img src="assets\img\IMG_7364-2.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -100,7 +106,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-4 col-12">
             <div class="card h-100 bg-dark">
               <img src="assets\img\IMG_7358.jpg" class="card-img-top" alt="...">
               <div class="card-body">
@@ -109,7 +115,7 @@
               </div>
             </div>
           </div>
-          <div class="col">
+          <div class="col-md-4 col-12">
             <div class="card h-100 bg-dark">
               <img src="assets\img\batero.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -124,30 +130,30 @@
 
         <div class="container bg-dark inf">
           <div class="row">
-            <div class="col">
+            <div class="col-md-6 col-12">
               <iframe width="560" height="315" src="https://www.youtube.com/embed/XLrdiQdryRU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-            <div class="col desc">
+            <div class="col-md-6 col-12 desc">
               <h5>Demasiado Lejos</h5>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et turpis fermentum, placerat ante ac, feugiat enim. Etiam tristique sollicitudin arcu. Nullam a libero non urna congue interdum. Curabitur condimentum nec lectus sed egestas.</p>
             </div>
           </div>
 
         <div class="row">
-          <div class="col desc">
+          <div class="col-md-6 col-12 desc">
             <h5>Carta de Despedida</h5>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et turpis fermentum, placerat ante ac, feugiat enim. Etiam tristique sollicitudin arcu. Nullam a libero non urna congue interdum. Curabitur condimentum nec lectus sed egestas.</p>
           </div>
-          <div class="col">
+          <div class="col-md-6 col-12">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/YOKCZdg9sLk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
         </div>
 
       <div class="row">
-        <div class="col">
+        <div class="col-md-6 col-12">
           <iframe width="560" height="315" src="https://www.youtube.com/embed/OW_Cqyx011I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="col desc">
+        <div class="col-md-6 col-12 desc">
           <h5>Inalcanzable</h5>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et turpis fermentum, placerat ante ac, feugiat enim. Etiam tristique sollicitudin arcu. Nullam a libero non urna congue interdum. Curabitur condimentum nec lectus sed egestas.</p>
         </div>
@@ -165,16 +171,16 @@
     <div class="col">
       <img src="assets\img\Dec60.png" class="card-img-top card2 img-card" alt="...">
     </div>
-    <div class="col descizq">
+    <div class="col-md-6 col-12 descizq">
       <h5>Década del 50' y 60'</h5>
       <p>Todo este movimiento, comenzado en los 50’s por Chuck Berry, Elvis Presley, Little Richard, etc, marco a toda una generación. Los años 50 fueron la época dorada del rock and roll y los adolescentes eran la nueva invención de los publicistas. La influencia de la nueva cultura juvenil se hizo patente. Liverpool se convirtió en el centro de atención gracias a un grupo llamado The Beatles. Durante los últimos años de la década brotó el movimiento hippie con sus proclamas de flower power y amor libre, íntimamente ligado a la música.La psicodelia, mezclada de Blues y Rock, dan una originalidad a este tipo de Rock y le dan un  sonido especial, aquí es donde por primera vez se ocupa un sonido estridente: un rock más pesado.</p>
     </div>
   </div>
 
   <div class="row bg-dark inf col-11 offset-1col">
-      <div class="col descder">
+      <div class="col-md-6 col-12 descder">
         <h5>Década del 70' y 80'</h5>
-        <p>La situación de crisis, y el sentimiento de marginación que sentían los jóvenes por el sistema, hace que como en décadas anteriores, surja un nuevo estilo musical con el que los jóvenes sí se identifican, en este caso, el Punk-Rock. Nace en Nueva York, más concretamente en 1974 en Queens, de la mano de The Ramones. Todo en este estilo va en contra de los parámetros sociales establecidos anteriormente: Visten con ropa militar y se peinan con crestas, nada que ver con la estética hippie de la década anterior. La música tiene sonidos distorsionados, batería muy potente y se toca a gran volumen y a ritmo acelerado. Con este nuevo estilo de música conseguían diferenciarse del sistema que tanto les había marginado. Era un estilo antisistema y en guerra con los estilos musicales más comerciales.Además del Punk-Rock, llegan también en esta década el Heavy Metal, el Hard Rock y el Glam Rock.</p>
+        <p class="pard">La situación de crisis, y el sentimiento de marginación que sentían los jóvenes por el sistema, hace que como en décadas anteriores, surja un nuevo estilo musical con el que los jóvenes sí se identifican, en este caso, el Punk-Rock. Nace en Nueva York, más concretamente en 1974 en Queens, de la mano de The Ramones. Todo en este estilo va en contra de los parámetros sociales establecidos anteriormente. La música tiene sonidos distorsionados, batería muy potente y se toca a gran volumen y a ritmo acelerado. Era un estilo antisistema y en guerra con los estilos musicales más comerciales.Además del Punk-Rock, llegan también en esta década el Heavy Metal, el Hard Rock y el Glam Rock.</p>
       </div>
       <div class="col">
         <img src="assets\img\Dec70.png" class="card-img-top card2 img-card" alt="...">
@@ -186,7 +192,7 @@
       <div class="col">
         <img src="assets\img\Dec90.png" class="card-img-top card2 img-card" alt="...">
       </div>
-      <div class="col descizq">
+      <div class="col-md-6 col-12 descizq">
         <h5>Década del 90' - infinito </h5>
         <p>Si en la década de los 80 se experimentó la diversificación, los 90 fueron el decenio de la tecnología en la música en general. La implementación de nuevas técnicas de grabación y el uso de computadoras fueron elementos que se hicieron básicos en la producción musical. En una situación un tanto similar al nacimiento del punk a finales de los 70, a finales de lo 80 se empezó a gestar en Seattle un movimiento que musicalmente conjuntaba la potencia y fiereza del punk y el heavy metal, e ideológicamente transmitía un mensaje de indiferencia, introspección y aislamiento, ante lo que ocurría en la sociedad estadounidense y en el mundo en general. La llegada del nuevo milenio traería consigo otro resurgimiento del rock.  Le regresarían la simpleza, armonía y actitud que había perdido este género que desde que nació estaba destinado a quedarse por siempre, y que tras más de 50 años de edad demuestra que sigue siendo un rebelde como en sus mejores años. </p>
       </div>
@@ -233,11 +239,11 @@
                     			  		<div class="col col-md-6">
                     			  			<div class="form-group">
                     			  				<label for="description">Mensaje</label>
-                    			  			 	<textarea  class="form-control" name="mensaje" id="description" placeholder="Contanos como nos conociste y que es lo que más te gusta de nuestra banda"></textarea>
+                    			  			 	<textarea  class="form-control" name="consulta" id="description" placeholder="Contanos como nos conociste y que es lo que más te gusta de nuestra banda"></textarea>
                     			  			</div>
                     			  			<div>
 
-                    			  				<button type="button buttone" class="btn btn-default submit m-4">Enviar<span></span><span></span><span></span><span></span></button>
+                    			  				<buttone type="button buttone" class="btn btn-default submit m-4">Enviar<span></span><span></span><span></span><span></span></buttone>
                     			  			</div>
                     					</div>
                               </div>
