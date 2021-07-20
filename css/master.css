@@ -12,7 +12,6 @@ body{
 }
 
 
-
 .nav-link{
   color: #adb5bd;
   font-family: 'Roboto', sans-serif;
@@ -26,13 +25,16 @@ body{
   padding-top: 1rem;
   padding-bottom: 1rem;
   margin-top: 1rem;
-  margin-bottom: 1rem;
 }
 
-.desc{
-  margin-top: 5rem;
+.descizq{
+  margin-top: 3rem;
+  margin-right: 2rem;
 }
-
+.descder{
+  margin-top: 3rem;
+  margin-left: 2rem;
+}
 h1{
   font-family: 'Oswald', sans-serif;
   color: #e5cf4a;
@@ -113,12 +115,12 @@ iframe{
 }
 
 .seccioninf{
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
 
-.btn:hover{
-  background-color: #f9de3b;
+.qs{
+  margin-top: 5rem;
 }
 
 .inf{
@@ -217,7 +219,6 @@ textarea.form-control {
 }
 
 .submit{
-  font-size: 1.1em;
   float: right;
   width: 150px;
   background-color: transparent;
@@ -226,4 +227,81 @@ textarea.form-control {
 
 h3{
   color: white;
+}
+
+
+
+button {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+button{
+    --c: goldenrod;
+    color: var(--c);
+    width: 12em;
+    height: 3em;
+    border: 0.3em solid var(--c);
+    text-align: center;
+    line-height: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+button:hover {
+    color: black;
+}
+
+button span {
+    position: absolute;
+    width: 25%;
+    height: 100%;
+    background-color: var(--c);
+    transform: translateY(150%);
+    border-radius: 50%;
+    left: calc((var(--n) - 1) * 25%);
+    transition: 0.5s;
+    transition-delay: calc((var(--n) - 1) * 0.1s);
+    z-index: -1;
+}
+
+button:hover span {
+    transform: translateY(0) scale(2);
+}
+
+button span:nth-child(1) {
+    --n: 1;
+}
+
+button span:nth-child(2) {
+    --n: 2;
+}
+
+button span:nth-child(3) {
+    --n: 3;
+}
+
+button span:nth-child(4) {
+    --n: 4;
+}
+
+
+.portada{
+  margin-top: -4rem;
+}
+
+.btnf:hover{
+  background-color: goldenrod;
+  color: black;
+  border-color: black;
+}
+
+.btn:hover{
+  border-color: black;
 }
