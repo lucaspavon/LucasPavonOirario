@@ -27,14 +27,20 @@ body{
   margin-top: 1rem;
 }
 
+.desc{
+  margin-top: 4rem;
+}
+
 .descizq{
   margin-top: 3rem;
   margin-right: 2rem;
 }
+
 .descder{
   margin-top: 3rem;
   margin-left: 2rem;
 }
+
 h1{
   font-family: 'Oswald', sans-serif;
   color: #e5cf4a;
